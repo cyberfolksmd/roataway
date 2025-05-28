@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="39" viewBox="0 0 440 39">
+  <g id="Search_Bar" data-name="Search Bar" transform="translate(-22 -103)">
+    <rect id="Rectangle_6190" data-name="Rectangle 6190" width="440" height="39" rx="4" transform="translate(22 103)" fill="#fff"/>
+    <path id="bx-search" d="M9.3,16.6a7.254,7.254,0,0,0,4.467-1.54l4.01,4.01,1.29-1.29-4.01-4.01A7.289,7.289,0,1,0,9.3,16.6Zm0-12.771A5.473,5.473,0,1,1,3.824,9.3,5.479,5.479,0,0,1,9.3,3.824Z" transform="translate(31.732 112.136)" fill="#b7bec6"/>
+    <text id="anvelope_iarna" data-name="anvelope iarna" transform="translate(59.159 128)" fill="#b7bec6" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">anvelope iarna</tspan></text>
+  </g>
+</svg>

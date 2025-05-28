@@ -1,0 +1,192 @@
+/* Основной стиль для мобильного хедера */
+.mobileHeader {
+  background-color: #393939;
+  width: 100%;
+  max-width: 699px;
+  padding: 30px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0 0 50px 50px;
+  margin: 0 auto;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+/* Верхняя строка */
+.topRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  width: 100%;
+  padding: 0 16px;
+}
+
+
+/* Логотип */
+.logo {
+  flex-shrink: 0;
+  transform: scale(0.85);
+  align-self: center; /* 💡 центрирует по вертикали */
+     margin-top: -18px
+}
+
+
+/* Иконки */
+.icons {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+
+
+.iconButton {
+  background: none;
+  border: none;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+}
+
+/* Поиск */
+.searchRow {
+  position: relative;
+  width: 100%;
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  background: url('/icons/Search%20Bar.svg') no-repeat center/contain;
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.searchInput {
+  padding: 8px 16px 8px 40px;
+  font-size: 15px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  border: none;
+  outline: none;
+}
+
+/* Меню */
+.dropdownMenu {
+  width: 100%;
+  background-color: #393939;
+  border-radius: 0 0 20px 20px;
+  margin-top: 10px;
+  padding: 10px 0;
+  padding-left: 24px;
+  padding-right: 24px;
+  box-sizing: border-box;
+}
+
+.dropdownMenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.menuButton {
+  background: none;
+  border: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+}
+
+
+
+.burgerIcon {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+/* Категория */
+.menuItemRow {
+  padding: 12px 0;
+  color: white;
+  font-size: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+
+/* Подкатегории */
+.subMenu {
+  padding-left: 16px;
+  padding-top: 4px;
+  padding-bottom: 8px;
+}
+
+.subItem {
+  font-size: 15px;
+  padding: 5px 0;
+  color: white;
+  font-weight: 400;
+}
+
+.subItem:first-child {
+  font-weight: 700;
+}
+
+
+/* Стрелка */
+.arrow {
+  display: inline-block;
+  width: 17pt;
+  height: 17pt;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%229pt%22%20height%3D%229pt%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22white%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22/%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Адаптивы */
+@media (max-width: 400px) {
+  .logo {
+    transform: scale(0.7);
+  }
+  .iconButton {
+    width: 20px;
+    height: 20px;
+  }
+  .icons {
+    gap: 6px;
+  }
+  .searchInput {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 330px) {
+  .searchIcon {
+    width: 14px;
+    height: 14px;
+    left: 10px;
+  }
+  .searchInput {
+    font-size: 13px;
+    padding-left: 32px;
+  }
+}

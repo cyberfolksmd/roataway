@@ -1,0 +1,64 @@
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 40px 20px 20px;
+  text-align: center;
+}
+
+.firstBlock {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  min-height: auto;
+}
+
+.menuColumn {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  min-width: 120px;
+}
+
+.menuColumn h3 {
+  font-weight: 700; /* жирнее */
+  font-size: 16px; /* или 17px, если надо крупнее */
+  margin-bottom: 12px;
+}
+
+.menuColumn ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menuColumn li {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+
+
+.extraBlock {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 24px;
+  margin-bottom: 10px;
+}
+
+.logoBlock {
+  margin-top: 20px;
+}
+
+.logo {
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
+.copyBlock {
+  font-size: 13px;
+  color: #aaa;
+  margin-top: 10px;
+}

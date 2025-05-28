@@ -1,0 +1,112 @@
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 40px 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.column {
+  flex: 1;
+  min-width: 180px;
+}
+
+.column h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.column li {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #ccc;
+}
+
+/* ============== МЫЛО ============== */
+
+.newsletter {
+  flex: 1.2;
+  min-width: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.newsletter h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  color: white;
+}
+
+.newsletterForm {
+  display: flex;
+  align-items: center;
+  max-width: 400px;
+}
+
+.emailInput {
+  flex: 1;
+  padding: 10px 14px;
+  font-size: 14px;
+  border-radius: 2px 0 0 2px;
+  border: none;
+  outline: none;
+}
+
+.sendButton {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #d64700;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 0 2px 2px 0;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.sendButton:hover {
+  background-color: #bf3f00;
+}
+
+.sendIcon {
+  width: 16px;
+  height: 16px;
+}
+
+/* ======================================== */
+
+.logoWrapper {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.logo {
+  height: 50px;
+}
+
+.copy {
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-top: 6px;
+}

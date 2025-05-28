@@ -1,0 +1,102 @@
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.productImage {
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.icon {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 24px;
+  height: 24px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  color: #2B2B2B;
+  min-height: 40px;
+}
+
+.pricing {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.oldPrice {
+  display: flex;
+  align-items: flex-start;
+  text-decoration: line-through;
+  color: #888;
+  font-size: 14px;
+}
+
+.oldPriceMain {
+  font-size: 14px;
+}
+
+.oldPriceDecimal {
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.discount {
+  background-color: #FF5722;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.price {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  font-weight: 700;
+  color: #FE3030;
+  font-size: 24px;
+  gap: 2px;
+}
+
+.priceMain {
+  font-size: 24px;
+}
+
+.priceDecimal {
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+.cartButton {
+  margin-top: auto;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}

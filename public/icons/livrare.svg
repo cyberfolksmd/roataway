@@ -1,0 +1,20 @@
+<svg id="Group_60" data-name="Group 60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29" height="16.237" viewBox="0 0 29 16.237">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_6239" data-name="Rectangle 6239" width="29" height="16.237" fill="none" stroke="#707070" stroke-width="1.4"/>
+    </clipPath>
+  </defs>
+  <g id="Group_59" data-name="Group 59" clip-path="url(#clip-path)">
+    <path id="Path_10502" data-name="Path 10502" d="M76.155,6.988H90.638a.1.1,0,0,1,.1.1v12.8" transform="translate(-70.977 -6.513)" fill="none" stroke="#333" stroke-linecap="round" stroke-width="1.4"/>
+    <line id="Line_48" data-name="Line 48" x1="3.33" transform="translate(5.178 13.377)" fill="none" stroke="#333" stroke-linecap="round" stroke-width="1.4"/>
+    <line id="Line_49" data-name="Line 49" x1="8.482" transform="translate(13.247 13.377)" fill="none" stroke="#333" stroke-linecap="round" stroke-width="1.4"/>
+    <path id="Path_10503" data-name="Path 10503" d="M291.733,32.235H296.6a.3.3,0,0,1,.258.144l3.424,5.516a.964.964,0,0,1,.145.509v3.9a1.116,1.116,0,0,1-1.116,1.116h-.99" transform="translate(-271.898 -30.043)" fill="none" stroke="#333" stroke-linecap="round" stroke-width="1.4"/>
+    <circle id="Ellipse_10" data-name="Ellipse 10" cx="2.345" cy="2.345" r="2.345" transform="translate(21.729 11.072)" fill="none" stroke="#333" stroke-linecap="round" stroke-width="1.4"/>
+    <path id="Path_10504" data-name="Path 10504" d="M130.541,165.186a2.345,2.345,0,1,1-2.345-2.345A2.345,2.345,0,0,1,130.541,165.186Z" transform="translate(-117.294 -151.769)" fill="none" stroke="#333" stroke-linecap="round" stroke-width="1.4"/>
+    <path id="Path_10505" data-name="Path 10505" d="M339.077,62.32H336.3a.224.224,0,0,0-.221.264l.584,3.294a.317.317,0,0,0,.312.26h4.635" transform="translate(-313.225 -58.083)" fill="none" stroke="#333" stroke-linecap="round" stroke-width="1.4"/>
+    <line id="Line_50" data-name="Line 50" x2="3.146" transform="translate(2.017 2.807)" fill="none" stroke="#333" stroke-linecap="round" stroke-width="1.4"/>
+    <line id="Line_51" data-name="Line 51" x2="3.355" transform="translate(3.115 5.553)" fill="none" stroke="#333" stroke-linecap="round" stroke-width="1.4"/>
+    <line id="Line_52" data-name="Line 52" x2="4.398" transform="translate(2.102 11.045)" fill="none" stroke="#333" stroke-linecap="round" stroke-width="1.4"/>
+    <line id="Line_53" data-name="Line 53" x2="4.495" transform="translate(0.475 8.299)" fill="none" stroke="#333" stroke-linecap="round" stroke-width="1.4"/>
+  </g>
+</svg>

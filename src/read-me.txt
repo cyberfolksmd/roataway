@@ -1,0 +1,54 @@
+yarn
+
+Инициализация выбрать JavaScript, не TypeScript
+
+npx create-next-app@latest roataway-ui
+
+выбрать-
+TypeScript No
+ESLint	Yes
+Tailwind CSS No
+Внутри src/	Yes
+App Router	No
+Turbopack	No
+Import alias	No
+
+
+cd roataway-ui
+
+
+
+
+roataway-ui/                     --+Корневая папка проекта
+- public/                        --+Публичные файлы (favicon, logo.svg и др.)
+  + logo.svg                     --+Логотип сайта
+
+- src/                           --+Исходная логика фронтенда
+  - app/                         --+Страницы и маршруты Next.js (App Router)
+    + page.jsx                   --+Главная страница (landing)
+
+  - components/                  --+Переиспользуемые компоненты
+    - Header/                   
+      + Header.jsx
+      + Header.module.css
+    - Footer/                   
+      + Footer.jsx
+      + Footer.module.css
+    - ProductCard/
+      + ProductCard.jsx
+      + ProductCard.module.css
+    + ...                        --+Остальные компоненты
+
+  - layouts/                     --+Layout-компоненты для страниц
+    + MainLayout.jsx
+
+  - styles/                      --+Глобальные стили
+    + globals.css
+
+  - utils/                       --+Утилиты, хелперы
+    + helpers.js
+
++ .gitignore
++ next.config.js                 --+Конфигурация Next.js
++ package.json
++ README.md

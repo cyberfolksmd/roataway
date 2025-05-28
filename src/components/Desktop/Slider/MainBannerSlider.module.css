@@ -1,0 +1,59 @@
+.sliderWrapper {
+  width: 100%;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+
+.bannerImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-top: 12px
+}
+
+/* === Пагинация: белые точки === */
+.swiper-pagination-bullets {
+  bottom: 12px !important;
+  text-align: center;
+}
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: white;
+  opacity: 0.4;
+  margin: 0 5px !important;
+  transition: opacity 0.3s ease;
+  border-radius: 50%;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  content: none !important;
+  display: none !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: 30px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px 16px;
+  z-index: 10;
+  cursor: pointer;
+}
+.swiper-button-prev {
+  background-image: url('/icons/left.png') !important;
+}
+.swiper-button-next {
+  background-image: url('/icons/right.png') !important;
+}
